@@ -15,7 +15,7 @@ E-Ticketing Website
 1. Clone the repository to your local machine: 
     
     ```bash
-    git clone git@github.com:ilham-s-saksena/E-Ticketing.git
+    git clone https://github.com/roberttijani/Ticketing-Online.git
     ```
 2. Change the Directory:
     ```bash
