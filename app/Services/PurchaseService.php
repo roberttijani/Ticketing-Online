@@ -15,9 +15,8 @@ class PurchaseService
         Buyer $buyer,
     ) {
         \Midtrans\Config::initialize();
-        // \Midtrans\Config::$serverKey = config('services.midtrans.serverKey');
+        \Midtrans\Config::$serverKey = config('services.midtrans.serverKey');
         // \Midtrans\Config::$serverKey = env('MIDTRANS_SERVER_KEY');
-        \Midtrans\Config::$serverKey = 'SB-Mid-server-StTO3OfaHYOuqSCjH3VShMGW';
         \Midtrans\Config::$isProduction = false;
         \Midtrans\Config::$isSanitized = true;
         \Midtrans\Config::$is3ds = true;
